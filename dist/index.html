@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bundler</title>
+    <title>Design System E01-G08</title>
 </head>
 <body>
-    <h1>Hello Webpack</h1>
-    <div class="image"></div>
+    <div class="t-main-container">
+        <div class="t-left-panel">
+            <div class="t-navigation">
+                <div class="section-title">
+                    <h2>Account</h2>
+                </div>
+                <div class="menu">
+                    <h3>Jane Doe</h3>
+                    <ul>
+                        <li>Profile</li>
+                        <li>Settings</li>
+                        <li>Data</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="t-switch">
+                Dark mode
+            </div>
+        </div>
+        <div class="t-right-panel">
+            <h1>Profile</h1>
+            <form>
+                <label class="text-label">Email</label>
+                <input class="a-input" type="email" name="email" placeholder="name@example.com">
+                <label class="text-label">Full Name</label>
+                <input class="a-input" type="text" name="fullname" placeholder="John Dick">
+                <button class="a-button a-button-primary text-button" type="submit" value="Email&Name">Save</button>
+            </form>
+            <div class="delete-account">
+                <h2>Delete my account</h2>
+                <p>lorem</p>
+                <button class="a-button a-button-secondary text-button">Delete</button>
+            </div>
+        </div>
+    </div>
 <script type="text/javascript" src="bundle.js"></script></body>
 </html>
