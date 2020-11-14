@@ -4,7 +4,7 @@
     "head": "specify",
     "rules": [
       {
-        "path": "src/assets/styles/01-utils/test.css",
+        "path": "src/assets/styles/01-utils/color.css",
         "filter":{
             "types": ["color"]
           },
