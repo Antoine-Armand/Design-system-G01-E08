@@ -1,0 +1,24 @@
+{
+    "repository": "@hetic/G01-E08",
+    "base": "master",
+    "head": "specify",
+    "rules": [
+      {
+        "path": "src/assets/styles/01-utils/test.css",
+        "filter":{
+            "types": ["color"]
+          },
+        "parsers": [
+            {
+                "name": "camelcasify",
+                "options": {
+                    "keys": ["name"]
+                }
+            },
+            {
+                "name": "to-css-custom-properties"
+            }
+        ]
+      }
+    ]
+  }
