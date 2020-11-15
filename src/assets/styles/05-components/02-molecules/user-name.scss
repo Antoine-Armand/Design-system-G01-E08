@@ -1,0 +1,26 @@
+.m-user-name {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: var(--base-space-5);
+    margin-bottom: var(--base-space-5);
+
+    .m-user-name-letter {
+        @include text-subtitle;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-primary);
+        border: 1px solid var(--color-primary);
+        border-radius: 50%;
+        background-color: var(--color-white);
+        margin-right: var(--base-space-3);
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .m-user-name-title {
+        @include text-subtitle;
+    }
+}

@@ -86,124 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/mixins/fonts-styles.css":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/mixins/fonts-styles.css ***!
-  \**************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/main.scss":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/main.scss ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".huge-title {\\r\\n    font-family: 'Montserrat', sans-serif;\\r\\n    font-style: normal;\\r\\n    font-weight: normal;\\r\\n    font-size: 43.9453px;\\r\\n    line-height: 54px;\\r\\n}\\r\\n\\r\\n.text-label {\\r\\n    font-family: 'Roboto', sans-serif;\\r\\n    font-style: normal;\\r\\n    font-weight: 500;\\r\\n    font-size: 20px;\\r\\n    line-height: 23px;\\r\\n    color: #444444;\\r\\n}\\r\\n\\r\\n.text-button {\\r\\n    font-family: 'Roboto', sans-serif;\\r\\n    font-style: normal;\\r\\n    font-weight: 500;\\r\\n    font-size: 12px;\\r\\n    line-height: 14px;\\r\\n    color: #444444;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/01-utils/mixins/fonts-styles.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/colors.css":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/colors.css ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \":root {\\r\\n    --color-primary: #4895EF;\\r\\n    --color-success: #52B788;\\r\\n    --color-failed: #FF3639;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/01-utils/variables/colors.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/fonts.css":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/fonts.css ***!
-  \**********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);\", \"\"]);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);\", \"\"]);\n\n// Module\nexports.push([module.i, \"/* Montserrat */\\r\\n\\r\\n\\r\\n/* Roboto */\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/01-utils/variables/fonts.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/spacing.css":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/spacing.css ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \":root {\\r\\n    --base-space-value: 8px;\\r\\n    --base-space-1: calc(var(--base-space-value) * 1);\\r\\n    --base-space-2: calc(var(--base-space-value) * 2);\\r\\n    --base-space-3: calc(var(--base-space-value) * 3);\\r\\n    --base-space-4: calc(var(--base-space-value) * 4);\\r\\n    --base-space-5: calc(var(--base-space-value) * 5);\\r\\n    --base-space-6: calc(var(--base-space-value) * 6);\\r\\n    --base-space-7: calc(var(--base-space-value) * 7);\\r\\n    --base-space-8: calc(var(--base-space-value) * 8);\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/01-utils/variables/spacing.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/z-index.css":
-/*!************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/z-index.css ***!
-  \************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \":root {\\r\\n    --z-index-1: 10;\\r\\n    --z-index-2: 20;\\r\\n    --z-index-3: 30;\\r\\n    --z-index-4: 40;\\r\\n    --z-index-5: 50;\\r\\n    --z-index-6: 60;\\r\\n    --z-index-7: 70;\\r\\n    --z-index-8: 80;\\r\\n    --z-index-9: 90;\\r\\n    --z-index-10: 100;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/01-utils/variables/z-index.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/02-bases/reset.css":
-/*!************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/02-bases/reset.css ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"html, body, div, span, applet, object, iframe,\\r\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\r\\na, abbr, acronym, address, big, cite, code,\\r\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\r\\nsmall, strike, strong, sub, sup, tt, var,\\r\\nb, u, i, center,\\r\\ndl, dt, dd, ol, ul, li,\\r\\nfieldset, form, label, legend,\\r\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\r\\narticle, aside, canvas, details, embed, \\r\\nfigure, figcaption, footer, header, hgroup, \\r\\nmenu, nav, output, ruby, section, summary,\\r\\ntime, mark, audio, video, button {\\r\\n\\tmargin: 0;\\r\\n\\tpadding: 0;\\r\\n\\tborder: 0;\\r\\n\\tfont-size: 100%;\\r\\n\\tfont: inherit;\\r\\n\\tvertical-align: baseline;\\r\\n}\\r\\n/* HTML5 display-role reset for older browsers */\\r\\narticle, aside, details, figcaption, figure, \\r\\nfooter, header, hgroup, menu, nav, section {\\r\\n\\tdisplay: block;\\r\\n}\\r\\nbody {\\r\\n\\tline-height: 1;\\r\\n}\\r\\nol, ul {\\r\\n\\tlist-style: none;\\r\\n}\\r\\nblockquote, q {\\r\\n\\tquotes: none;\\r\\n}\\r\\nblockquote:before, blockquote:after,\\r\\nq:before, q:after {\\r\\n\\tcontent: '';\\r\\n\\tcontent: none;\\r\\n}\\r\\ntable {\\r\\n\\tborder-collapse: collapse;\\r\\n\\tborder-spacing: 0;\\r\\n}\\r\\ninput {\\r\\n\\tbox-shadow: none;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/02-bases/reset.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/01-atoms/button.css":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/01-atoms/button.css ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".a-button {\\r\\n    width: 100px;\\r\\n    height: 40px;\\r\\n    border: 1px solid;\\r\\n    box-sizing: border-box;\\r\\n    border-radius: 4px;\\r\\n    background-color: #FCFCFC;\\r\\n    text-transform: uppercase;\\r\\n}\\r\\n\\r\\n.a-button-primary {\\r\\n    color: var(--color-primary);\\r\\n    border-color: var(--color-primary);\\r\\n}\\r\\n\\r\\n.a-button-secondary {\\r\\n    color: var(--color-failed);\\r\\n    border-color: var(--color-failed);\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/05-components/01-atoms/button.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/01-atoms/input.css":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/01-atoms/input.css ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../../images/icons/check-green.svg */ \"./src/assets/images/icons/check-green.svg\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ../../../images/icons/cross-red.svg */ \"./src/assets/images/icons/cross-red.svg\"));\n\n// Module\nexports.push([module.i, \".a-input {\\r\\n    /* Change color when they got a name */\\r\\n    position: relative;\\r\\n    width: 100%;\\r\\n    height: 40px;\\r\\n    padding: var(--base-space-1) var(--base-space-2);\\r\\n    border: 1px solid #7C7C7C;\\r\\n    box-sizing: border-box;\\r\\n    border-radius: 4px;\\r\\n    color: var(--color-primary);\\r\\n    background-color: #FCFCFC;\\r\\n    /* Specify this in font-styles.css when I got names for text \\r\\n        By adding the class to the input directly\\r\\n    */\\r\\n    font-family: 'Montserrat', sans-serif;\\r\\n    font-style: normal;\\r\\n    font-weight: 500;\\r\\n    font-size: 16px;\\r\\n    line-height: 20px;\\r\\n}\\r\\n\\r\\n.a-input::placeholder{\\r\\n    color: #7C7C7C;\\r\\n}\\r\\n\\r\\n.a-input:focus,\\r\\n.a-input:hover {\\r\\n    border-color: var(--color-primary);\\r\\n}\\r\\n\\r\\n/* .a-input:valid {\\r\\n    color: #444444;\\r\\n    border-color: var(--color-success);\\r\\n} */\\r\\n\\r\\n.a-input:valid::after {\\r\\n    content: \\\"\\\";\\r\\n    position: absolute;\\r\\n    top: var(--base-space-1);\\r\\n    right: var(--base-space-2);\\r\\n    width:24px;\\r\\n    height: 24px;\\r\\n    background: url(\" + ___CSS_LOADER_URL___0___ + \");\\r\\n}\\r\\n\\r\\n\\r\\n.a-input:invalid {\\r\\n    color: #444444;\\r\\n    border-color: var(--color-failed);\\r\\n}\\r\\n\\r\\n.a-input:invalid::after {\\r\\n    content: \\\"\\\";\\r\\n    position: absolute;\\r\\n    top: var(--base-space-1);\\r\\n    right: var(--base-space-2);\\r\\n    width:24px;\\r\\n    height: 24px;\\r\\n    background: url(\" + ___CSS_LOADER_URL___1___ + \");\\r\\n}\\r\\n\\r\\n.a-input:disabled {\\r\\n    background-color: #F5F5F5;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/05-components/01-atoms/input.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/03-organisms/form.css":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/03-organisms/form.css ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/05-components/03-organisms/form.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/04-templates/account.css":
-/*!********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/04-templates/account.css ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".t-main-container{\\r\\n    width: 100%;\\r\\n    height: 100vh;\\r\\n    display: flex;\\r\\n    flex-flow: row nowrap;\\r\\n}\\r\\n\\r\\n.t-left-panel {\\r\\n    width: 28%;\\r\\n    padding: var(--base-space-4);\\r\\n    box-sizing: border-box;\\r\\n    display: flex;\\r\\n    flex-flow: column nowrap;\\r\\n    justify-content: space-between;\\r\\n}\\r\\n\\r\\n.t-right-panel {\\r\\n    width: 29%;\\r\\n    margin: auto;\\r\\n}\\r\\n\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/05-components/04-templates/account.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/styles/main.css":
-/*!**************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/styles/main.css ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./01-utils/variables/fonts.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/fonts.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./01-utils/variables/colors.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/colors.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./01-utils/variables/spacing.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/spacing.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./01-utils/variables/z-index.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/variables/z-index.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./01-utils/mixins/fonts-styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/01-utils/mixins/fonts-styles.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./02-bases/reset.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/02-bases/reset.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./05-components/01-atoms/input.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/01-atoms/input.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./05-components/01-atoms/button.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/01-atoms/button.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./05-components/03-organisms/form.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/03-organisms/form.css\"), \"\");\nexports.i(__webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!./05-components/04-templates/account.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/05-components/04-templates/account.css\"), \"\");\n\n// Module\nexports.push([module.i, \"/* 01-utils */\\r\\n\\r\\n/* 02-bases */\\r\\n\\r\\n/* 05-components */\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/main.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);\", \"\"]);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);\", \"\"]);\n\n// Module\nexports.push([module.i, \"/* 01-utils */\\n/* Montserrat */\\n/* Roboto */\\n:root {\\n  --color-primary: #4895EF;\\n  --color-primary-20: #91BFF5;\\n  --color-success: #52B788;\\n  --color-failed: #FF3639;\\n  --color-white: #FCFCFC;\\n  --color-black: #444444;\\n}\\n\\n:root {\\n  --base-space-value: 8px;\\n  --base-space-1: calc(var(--base-space-value) * 1);\\n  --base-space-2: calc(var(--base-space-value) * 2);\\n  --base-space-3: calc(var(--base-space-value) * 3);\\n  --base-space-4: calc(var(--base-space-value) * 4);\\n  --base-space-5: calc(var(--base-space-value) * 5);\\n  --base-space-6: calc(var(--base-space-value) * 6);\\n  --base-space-7: calc(var(--base-space-value) * 7);\\n  --base-space-8: calc(var(--base-space-value) * 8);\\n  --base-space-9: calc(var(--base-space-value) * 9);\\n  --base-space-10: calc(var(--base-space-value) * 10);\\n}\\n\\n:root {\\n  --z-index-1: 10;\\n  --z-index-2: 20;\\n  --z-index-3: 30;\\n  --z-index-4: 40;\\n  --z-index-5: 50;\\n  --z-index-6: 60;\\n  --z-index-7: 70;\\n  --z-index-8: 80;\\n  --z-index-9: 90;\\n  --z-index-10: 100;\\n}\\n\\n/* Roboto text */\\n.text-button {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 12px;\\n  line-height: 14px;\\n  color: #444444;\\n}\\n\\n/* Montserrat text */\\n/* 02-bases */\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video, button {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline;\\n}\\n\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n  display: block;\\n}\\n\\nbody {\\n  line-height: 1;\\n}\\n\\nol, ul {\\n  list-style: none;\\n}\\n\\nblockquote, q {\\n  quotes: none;\\n}\\n\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n  content: \\\"\\\";\\n  content: none;\\n}\\n\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0;\\n}\\n\\ninput {\\n  box-shadow: none;\\n}\\n\\n/* 05-components */\\n.a-input {\\n  /* Change color when they got a name */\\n  position: relative;\\n  width: 100%;\\n  height: 40px;\\n  padding: var(--base-space-1) var(--base-space-2);\\n  border: 1px solid #7C7C7C;\\n  box-sizing: border-box;\\n  border-radius: 4px;\\n  color: var(--color-primary);\\n  background-color: #FCFCFC;\\n  /* Specify this in font-styles.css when I got names for text \\n      By adding the class to the input directly\\n  */\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 16px;\\n  line-height: 20px;\\n}\\n\\n.a-input::placeholder {\\n  color: #7C7C7C;\\n}\\n\\n.a-input:focus,\\n.a-input:hover {\\n  border-color: var(--color-primary);\\n}\\n\\n/* .a-input:valid {\\n    color: #444444;\\n    border-color: var(--color-success);\\n} */\\n.a-input:valid::after {\\n  content: \\\"\\\";\\n  position: absolute;\\n  top: var(--base-space-1);\\n  right: var(--base-space-2);\\n  width: 24px;\\n  height: 24px;\\n}\\n\\n.a-input:invalid {\\n  color: #444444;\\n  border-color: var(--color-failed);\\n}\\n\\n.a-input:invalid::after {\\n  content: \\\"\\\";\\n  position: absolute;\\n  top: var(--base-space-1);\\n  right: var(--base-space-2);\\n  width: 24px;\\n  height: 24px;\\n}\\n\\n.a-input:disabled {\\n  background-color: #F5F5F5;\\n}\\n\\n.a-button {\\n  width: 100px;\\n  height: 40px;\\n  border: 1px solid;\\n  box-sizing: border-box;\\n  border-radius: 4px;\\n  background-color: #FCFCFC;\\n  text-transform: uppercase;\\n  cursor: pointer;\\n  transition: all 0.2s ease;\\n}\\n\\n.a-button-primary {\\n  color: var(--color-primary);\\n  border-color: var(--color-primary);\\n}\\n\\n.a-button-primary:hover {\\n  color: #FCFCFC;\\n  background-color: var(--color-primary);\\n  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);\\n}\\n\\n.a-button-secondary {\\n  color: var(--color-failed);\\n  border-color: var(--color-failed);\\n}\\n\\n.a-button-secondary:hover {\\n  color: #FCFCFC;\\n  background-color: var(--color-failed);\\n  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);\\n}\\n\\n.m-dark-mode {\\n  display: flex;\\n  flex-flow: row nowrap;\\n  justify-content: space-between;\\n}\\n.m-dark-mode .m-dark-mode-title {\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 20px;\\n  line-height: 24px;\\n  letter-spacing: 0.08em;\\n  text-transform: uppercase;\\n  color: var(--color-black);\\n}\\n\\n.m-user-name {\\n  display: flex;\\n  flex-flow: row nowrap;\\n  align-items: center;\\n  margin-top: var(--base-space-5);\\n  margin-bottom: var(--base-space-5);\\n}\\n.m-user-name .m-user-name-letter {\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 28px;\\n  line-height: 34px;\\n  width: 42px;\\n  height: 42px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  color: var(--color-primary);\\n  border: 1px solid var(--color-primary);\\n  border-radius: 50%;\\n  background-color: var(--color-white);\\n  margin-right: var(--base-space-3);\\n  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);\\n}\\n.m-user-name .m-user-name-title {\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 28px;\\n  line-height: 34px;\\n}\\n\\n.m-menu {\\n  margin-left: var(--base-space-8);\\n}\\n.m-menu .m-menu-section {\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 20px;\\n  line-height: 24px;\\n  letter-spacing: 0.08em;\\n  text-transform: uppercase;\\n}\\n.m-menu .m-menu-section:not(:last-child) {\\n  margin-bottom: var(--base-space-3);\\n}\\n.m-menu .m-menu-section:first-child {\\n  color: var(--color-primary);\\n}\\n\\n.m-section-title:after {\\n  content: \\\"\\\";\\n  position: relative;\\n  margin-top: var(--base-space-4);\\n  display: block;\\n  width: 100%;\\n  height: 2px;\\n  background: red;\\n}\\n.m-section-title .m-section-title-text {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 300;\\n  font-size: 28px;\\n  line-height: 33px;\\n  letter-spacing: 0.06em;\\n  margin-left: var(--base-space-3);\\n  display: flex;\\n  flex-flow: row nowrap;\\n  align-items: center;\\n}\\n.m-section-title .m-section-title-text:before {\\n  content: \\\"\\\";\\n  position: relative;\\n  display: inline-block;\\n  width: 32px;\\n  height: 32px;\\n  margin-right: var(--base-space-3);\\n  background: red;\\n}\\n\\n.o-form .o-form-label {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 20px;\\n  line-height: 23px;\\n  color: #444444;\\n  display: block;\\n  margin-bottom: var(--base-space-1);\\n}\\n.o-form .o-form-input {\\n  margin-bottom: var(--base-space-3);\\n}\\n\\n.o-delete-account .o-delete-account-title {\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 500;\\n  font-size: 28px;\\n  line-height: 34px;\\n  margin-bottom: var(--base-space-3);\\n}\\n.o-delete-account .o-delete-account-description {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: normal;\\n  font-size: 18px;\\n  line-height: 24px;\\n  margin-bottom: var(--base-space-3);\\n}\\n\\n.o-profile .o-profile-title {\\n  font-family: \\\"Montserrat\\\", sans-serif;\\n  font-style: normal;\\n  font-weight: 600;\\n  font-size: 40px;\\n  line-height: 49px;\\n  color: var(--color-primary);\\n  margin-bottom: var(--base-space-10);\\n}\\n.o-profile .o-profile-form {\\n  margin-bottom: var(--base-space-5);\\n}\\n\\n.t-main-container {\\n  width: 100%;\\n  height: 100vh;\\n  display: flex;\\n  flex-flow: row nowrap;\\n}\\n.t-main-container .t-left-panel {\\n  width: 28%;\\n  padding: var(--base-space-4);\\n  box-sizing: border-box;\\n  display: flex;\\n  flex-flow: column nowrap;\\n  justify-content: space-between;\\n}\\n.t-main-container .t-right-panel {\\n  width: 29%;\\n  margin: auto;\\n}\\n\\n.p-account-parameter {\\n  background-color: var(--color-white);\\n}\\n.p-account-parameter .p-account-parameter-left-panel {\\n  background-color: #F4F8FD;\\n  border-right: 1px solid var(--color-primary-20);\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -216,18 +106,6 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 
 "use strict";
 eval("\r\n\r\n/*\r\n  MIT License http://www.opensource.org/licenses/mit-license.php\r\n  Author Tobias Koppers @sokra\r\n*/\r\n// css base code, injected by the css-loader\r\nmodule.exports = function (useSourceMap) {\r\n  var list = []; // return the list of modules as css string\r\n\r\n  list.toString = function toString() {\r\n    return this.map(function (item) {\r\n      var content = cssWithMappingToString(item, useSourceMap);\r\n\r\n      if (item[2]) {\r\n        return '@media ' + item[2] + '{' + content + '}';\r\n      } else {\r\n        return content;\r\n      }\r\n    }).join('');\r\n  }; // import a list of modules into the list\r\n\r\n\r\n  list.i = function (modules, mediaQuery) {\r\n    if (typeof modules === 'string') {\r\n      modules = [[null, modules, '']];\r\n    }\r\n\r\n    var alreadyImportedModules = {};\r\n\r\n    for (var i = 0; i < this.length; i++) {\r\n      var id = this[i][0];\r\n\r\n      if (id != null) {\r\n        alreadyImportedModules[id] = true;\r\n      }\r\n    }\r\n\r\n    for (i = 0; i < modules.length; i++) {\r\n      var item = modules[i]; // skip already imported module\r\n      // this implementation is not 100% perfect for weird media query combinations\r\n      // when a module is imported multiple times with different media queries.\r\n      // I hope this will never occur (Hey this way we have smaller bundles)\r\n\r\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\r\n        if (mediaQuery && !item[2]) {\r\n          item[2] = mediaQuery;\r\n        } else if (mediaQuery) {\r\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\r\n        }\r\n\r\n        list.push(item);\r\n      }\r\n    }\r\n  };\r\n\r\n  return list;\r\n};\r\n\r\nfunction cssWithMappingToString(item, useSourceMap) {\r\n  var content = item[1] || '';\r\n  var cssMapping = item[3];\r\n\r\n  if (!cssMapping) {\r\n    return content;\r\n  }\r\n\r\n  if (useSourceMap && typeof btoa === 'function') {\r\n    var sourceMapping = toComment(cssMapping);\r\n    var sourceURLs = cssMapping.sources.map(function (source) {\r\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\r\n    });\r\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\r\n  }\r\n\r\n  return [content].join('\\n');\r\n} // Adapted from convert-source-map (MIT)\r\n\r\n\r\nfunction toComment(sourceMap) {\r\n  // eslint-disable-next-line no-undef\r\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\r\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\r\n  return '/*# ' + data + ' */';\r\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/url-escape.js":
-/*!************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/url-escape.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\n\r\nmodule.exports = function escape(url, needQuotes) {\r\n  if (typeof url !== 'string') {\r\n    return url;\r\n  } // If url is already wrapped in quotes, remove them\r\n\r\n\r\n  if (/^['\"].*['\"]$/.test(url)) {\r\n    url = url.slice(1, -1);\r\n  } // Should url be wrapped?\r\n  // See https://drafts.csswg.org/css-values-3/#urls\r\n\r\n\r\n  if (/[\"'() \\t\\n]/.test(url) || needQuotes) {\r\n    return '\"' + url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n') + '\"';\r\n  }\r\n\r\n  return url;\r\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/url-escape.js?");
 
 /***/ }),
 
@@ -253,36 +131,14 @@ eval("\r\n/**\r\n * When source maps are enabled, `style-loader` uses a link ele
 
 /***/ }),
 
-/***/ "./src/assets/images/icons/check-green.svg":
-/*!*************************************************!*\
-  !*** ./src/assets/images/icons/check-green.svg ***!
-  \*************************************************/
+/***/ "./src/assets/styles/main.scss":
+/*!*************************************!*\
+  !*** ./src/assets/styles/main.scss ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"images/5321babe6fe792c9f6133f29c64cc136.svg\";\n\n//# sourceURL=webpack:///./src/assets/images/icons/check-green.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/icons/cross-red.svg":
-/*!***********************************************!*\
-  !*** ./src/assets/images/icons/cross-red.svg ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"images/62038fe747a6ba5cc3584e414e345b39.svg\";\n\n//# sourceURL=webpack:///./src/assets/images/icons/cross-red.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/styles/main.css":
-/*!************************************!*\
-  !*** ./src/assets/styles/main.css ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./main.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/styles/main.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/assets/styles/main.css?");
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./main.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/assets/styles/main.scss?");
 
 /***/ }),
 
@@ -294,7 +150,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/main.css */ \"./src/assets/styles/main.css\");\n/* harmony import */ var _assets_styles_main_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_main_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/main.scss */ \"./src/assets/styles/main.scss\");\n/* harmony import */ var _assets_styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

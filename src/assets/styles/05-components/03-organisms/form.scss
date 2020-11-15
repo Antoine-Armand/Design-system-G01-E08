@@ -1,0 +1,11 @@
+.o-form {
+    .o-form-label {
+        @include text-label;
+        display: block;
+        margin-bottom: var(--base-space-1);
+    }
+
+    .o-form-input {
+        margin-bottom: var(--base-space-3);
+    }
+}

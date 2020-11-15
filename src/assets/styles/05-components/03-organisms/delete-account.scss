@@ -1,0 +1,11 @@
+.o-delete-account {
+    .o-delete-account-title {
+        @include text-subtitle;
+        margin-bottom: var(--base-space-3)
+    }
+    
+    .o-delete-account-description {
+        @include text-body;
+        margin-bottom: var(--base-space-3)
+    }
+}

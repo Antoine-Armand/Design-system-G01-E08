@@ -7,37 +7,42 @@
     <title>Design System E01-G08</title>
 </head>
 <body>
-    <div class="t-main-container">
-        <div class="t-left-panel">
+    <div class="t-main-container p-account-parameter">
+        <div class="t-left-panel p-account-parameter-left-panel">
             <div class="t-navigation">
-                <div class="section-title">
-                    <h2>Account</h2>
+                <div class="m-section-title">
+                    <h2 class="m-section-title-text">Account</h2>
                 </div>
-                <div class="menu">
-                    <h3>Jane Doe</h3>
-                    <ul>
-                        <li>Profile</li>
-                        <li>Settings</li>
-                        <li>Data</li>
+                <div class="o-menu">
+                    <div class="m-user-name">
+                        <p class="m-user-name-letter">J</p>
+                        <h3 class="m-user-name-title">Jane Doe</h3>
+                    </div>
+                    <ul class="m-menu">
+                        <li class="m-menu-section">Profile</li>
+                        <li class="m-menu-section">Settings</li>
+                        <li class="m-menu-section">Data</li>
                     </ul>
                 </div>
             </div>
-            <div class="t-switch">
-                Dark mode
+            <div class="m-dark-mode">
+                <h3 class="m-dark-mode-title"> Dark mode </h3>
             </div>
         </div>
-        <div class="t-right-panel">
-            <h1>Profile</h1>
-            <form>
-                <label class="text-label">Email</label>
-                <input class="a-input" type="email" name="email" placeholder="name@example.com">
-                <label class="text-label">Full Name</label>
-                <input class="a-input" type="text" name="fullname" placeholder="John Dick">
+        <div class="t-right-panel o-profile">
+            <h1 class="o-profile-title">Profile</h1>
+            <form class="o-profile-form o-form">
+                <label class="o-form-label">Email</label>
+                <input class="o-form-input a-input" type="email" name="email" placeholder="name@example.com">
+                <label class="o-form-label">Full Name</label>
+                <input class="o-form-input a-input" type="text" name="fullname" placeholder="John Dick">
                 <button class="a-button a-button-primary text-button" type="submit" value="Email&Name">Save</button>
             </form>
-            <div class="delete-account">
-                <h2>Delete my account</h2>
-                <p>lorem</p>
+            <div class="o-delete-account">
+                <h2 class="o-delete-account-title">Delete my account</h2>
+                <p class="o-delete-account-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa diam vel amet pulvinar. Cum amet, amet, ac sed hendrerit. 
+                </p>
                 <button class="a-button a-button-secondary text-button">Delete</button>
             </div>
         </div>

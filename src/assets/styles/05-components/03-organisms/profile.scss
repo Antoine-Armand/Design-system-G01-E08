@@ -1,0 +1,11 @@
+.o-profile {
+    .o-profile-title {
+        @include text-hugetitle;
+        color: var(--color-primary);
+        margin-bottom: var(--base-space-10);
+    }
+
+    .o-profile-form {
+        margin-bottom: var(--base-space-5);
+    }
+}

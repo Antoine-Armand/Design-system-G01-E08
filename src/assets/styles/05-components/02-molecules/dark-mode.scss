@@ -1,0 +1,10 @@
+.m-dark-mode {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+    .m-dark-mode-title {
+        @include text-section;
+        color: var(--color-black);
+    }
+}

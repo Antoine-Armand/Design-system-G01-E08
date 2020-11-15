@@ -1,0 +1,64 @@
+.a-input {
+    /* Change color when they got a name */
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: var(--base-space-1) var(--base-space-2);
+    border: 1px solid #7C7C7C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--color-primary);
+    background-color: #FCFCFC;
+    /* Specify this in font-styles.css when I got names for text 
+        By adding the class to the input directly
+    */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.a-input::placeholder{
+    color: #7C7C7C;
+}
+
+.a-input:focus,
+.a-input:hover {
+    border-color: var(--color-primary);
+}
+
+/* .a-input:valid {
+    color: #444444;
+    border-color: var(--color-success);
+} */
+
+.a-input:valid::after {
+    content: "";
+    position: absolute;
+    top: var(--base-space-1);
+    right: var(--base-space-2);
+    width:24px;
+    height: 24px;
+    // background: url('../../../images/icons/check-green.svg');
+}
+
+
+.a-input:invalid {
+    color: #444444;
+    border-color: var(--color-failed);
+}
+
+.a-input:invalid::after {
+    content: "";
+    position: absolute;
+    top: var(--base-space-1);
+    right: var(--base-space-2);
+    width:24px;
+    height: 24px;
+    // background: url('../../../images/icons/cross-red.svg');
+}
+
+.a-input:disabled {
+    background-color: #F5F5F5;
+}
