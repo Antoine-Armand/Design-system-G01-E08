@@ -10,7 +10,7 @@
         },
         "parsers": [
             {
-                "name": "camelcasify",
+                "name": "kebabcasify",
                 "options": {
                     "keys": ["name"]
                 }
