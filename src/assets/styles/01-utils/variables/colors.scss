@@ -8,3 +8,7 @@
     --color-white: #FCFCFC;
     --color-black: #444444;
 }
+
+[data-theme="dark"] {
+    --color-primary: red;
+}

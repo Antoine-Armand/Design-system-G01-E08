@@ -3,10 +3,15 @@
 
     .m-menu-section {
         @include text-section;
+
         &:not(:last-child){
             margin-bottom: var(--base-space-3);
         }
         &:first-child{
+            color: var(--color-primary);
+            font-weight: bold;
+        }
+        &:hover {
             color: var(--color-primary);
         }
     }
