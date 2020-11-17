@@ -1,13 +1,13 @@
 {
-    "repository": "@hetic/G01-E08",
+    "repository": "@hetic/G01-E08-Light",
     "base": "master",
     "head": "specify",
     "rules": [
       {
-        "path": "src/assets/styles/01-utils/color.css",
+        "path": "src/assets/styles/01-utils/variables/colors/_light-theme.scss",
         "filter":{
             "types": ["color"]
-          },
+        },
         "parsers": [
             {
                 "name": "camelcasify",
